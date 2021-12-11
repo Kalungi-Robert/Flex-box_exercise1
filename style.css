@@ -1,0 +1,40 @@
+body {
+  background: #ecf2f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  font-family: serif;
+   /*border-radius:20px;*/
+}
+.card {
+  display: flex;
+  background: #fff;
+  width: 730px;
+  height: 280px;
+  border-radius: 10px; /*Rounds the corners of the card*/
+}
+.image img {
+  width: 265px;
+  height: 280px;
+  border-top-left-radius: 10px; /*Rounds corners of top & bottom of image*/
+  border-bottom-left-radius: 10px;
+}
+.content {
+  padding-left: 40px; /*creates space btn content and img*/
+  padding-right: 54px;
+  padding-top: 24px;
+  padding-bottom: 34px;
+}
+p {
+  font-size: 15px;
+  font-weight: normal;
+  color: #6e8098;
+}
+.content h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  color: #48556a;
